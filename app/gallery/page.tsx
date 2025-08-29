@@ -1,6 +1,5 @@
 import { createServerSupabaseClient } from '@/lib/supabase/server';
 import Image from 'next/image';
-import ArtworkModal from '@/components/ArtworkModal';
 
 export default async function GalleryPage() {
   const supabase = await createServerSupabaseClient();
@@ -82,6 +81,8 @@ export default async function GalleryPage() {
 
   const displayArtworks = artworks && artworks.length > 0 ? artworks : tempArtworks;
 
+  type ArtworkType = 'oil' | 'acrylic' | 'watercolor' | 'mixed' | 'drawing' | 'other';
+
   const typeTranslations = {
     oil: 'Ölgemälde',
     acrylic: 'Acrylgemälde',
@@ -118,7 +119,7 @@ export default async function GalleryPage() {
                     <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
                       <h3 className="text-lg font-semibold">{artwork.name}</h3>
                       <p className="text-sm opacity-90">
-                        {typeTranslations[artwork.type]} • {artwork.width} x {artwork.height} cm
+                        {typeTranslations[artwork.type as ArtworkType]} • {artwork.width} x {artwork.height} cm
                       </p>
                     </div>
                   </div>

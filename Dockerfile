@@ -12,7 +12,7 @@ RUN npm ci
 # Kopiere Source Code
 COPY . .
 
-# Build the Next.js app
+# Build the Next.js app (ohne Turbopack für Production)
 RUN npm run build
 
 # Production Stage
