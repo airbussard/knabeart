@@ -18,7 +18,7 @@ export default function AboutPage() {
             <div>
               <div className="relative h-[600px] rounded-lg overflow-hidden shadow-xl mb-8">
                 <Image
-                  src="/WhatsApp Image 2025-08-29 at 15.41.00.jpeg"
+                  src="/artwork5.jpeg"
                   alt="Michaela Knabe"
                   fill
                   className="object-cover"
@@ -93,7 +93,7 @@ export default function AboutPage() {
             <div className="grid md:grid-cols-3 gap-6">
               <div className="relative h-[300px] rounded-lg overflow-hidden shadow-lg">
                 <Image
-                  src="/WhatsApp Image 2025-08-29 at 15.43.37.jpeg"
+                  src="/artwork6.jpeg"
                   alt="Atelier 1"
                   fill
                   className="object-cover"
@@ -101,7 +101,7 @@ export default function AboutPage() {
               </div>
               <div className="relative h-[300px] rounded-lg overflow-hidden shadow-lg">
                 <Image
-                  src="/WhatsApp Image 2025-08-29 at 15.48.20.jpeg"
+                  src="/artwork7.jpeg"
                   alt="Atelier 2"
                   fill
                   className="object-cover"
@@ -109,7 +109,7 @@ export default function AboutPage() {
               </div>
               <div className="relative h-[300px] rounded-lg overflow-hidden shadow-lg">
                 <Image
-                  src="/WhatsApp Image 2025-08-29 at 15.37.42.jpeg"
+                  src="/artwork4.jpeg"
                   alt="Atelier 3"
                   fill
                   className="object-cover"

@@ -4,17 +4,17 @@ import Link from "next/link";
 export default function Home() {
   const featuredArtworks = [
     { 
-      src: "/WhatsApp Image 2025-08-29 at 15.17.21.jpeg", 
+      src: "/artwork1.jpeg", 
       alt: "Kunstwerk 1",
       title: "Abstrakte Komposition"
     },
     { 
-      src: "/WhatsApp Image 2025-08-29 at 15.19.13.jpeg", 
+      src: "/artwork2.jpeg", 
       alt: "Kunstwerk 2",
       title: "Farbspiel"
     },
     { 
-      src: "/WhatsApp Image 2025-08-29 at 15.22.23.jpeg", 
+      src: "/artwork3.jpeg", 
       alt: "Kunstwerk 3",
       title: "Naturimpression"
     },
@@ -68,7 +68,7 @@ export default function Home() {
             </div>
             <div className="relative h-[500px] rounded-lg overflow-hidden shadow-xl">
               <Image
-                src="/WhatsApp Image 2025-08-29 at 15.37.42.jpeg"
+                src="/artwork4.jpeg"
                 alt="Michaela Knabe bei der Arbeit"
                 fill
                 className="object-cover"

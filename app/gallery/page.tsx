@@ -20,7 +20,7 @@ export default async function GalleryPage() {
       width: 60,
       height: 80,
       price: 1200,
-      image_path: '/WhatsApp Image 2025-08-29 at 15.17.21.jpeg'
+      image_path: '/artwork1.jpeg'
     },
     {
       id: '2',
@@ -31,7 +31,7 @@ export default async function GalleryPage() {
       width: 100,
       height: 70,
       price: 1500,
-      image_path: '/WhatsApp Image 2025-08-29 at 15.19.13.jpeg'
+      image_path: '/artwork2.jpeg'
     },
     {
       id: '3',
@@ -42,7 +42,7 @@ export default async function GalleryPage() {
       width: 50,
       height: 50,
       price: 800,
-      image_path: '/WhatsApp Image 2025-08-29 at 15.22.23.jpeg'
+      image_path: '/artwork3.jpeg'
     },
     {
       id: '4',
@@ -53,7 +53,7 @@ export default async function GalleryPage() {
       width: 80,
       height: 60,
       price: 1100,
-      image_path: '/WhatsApp Image 2025-08-29 at 15.37.42.jpeg'
+      image_path: '/artwork4.jpeg'
     },
     {
       id: '5',
@@ -64,7 +64,7 @@ export default async function GalleryPage() {
       width: 70,
       height: 90,
       price: 1400,
-      image_path: '/WhatsApp Image 2025-08-29 at 15.41.00.jpeg'
+      image_path: '/artwork5.jpeg'
     },
     {
       id: '6',
@@ -75,7 +75,7 @@ export default async function GalleryPage() {
       width: 90,
       height: 90,
       price: 1600,
-      image_path: '/WhatsApp Image 2025-08-29 at 15.43.37.jpeg'
+      image_path: '/artwork6.jpeg'
     },
   ];
 
