@@ -1,11 +1,8 @@
 Supabase
-Database Passwort: Sesam1001!!
-
-ANON: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBjeWVjZHhtdWh0eXFkYmxyZWh0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTY0ODg4MDYsImV4cCI6MjA3MjA2NDgwNn0.WsHwH-KPYb46QvQzCLAj8_2jN-oDiQVVSledoTZaiIY
-
-SERVICE ROLE:
-
-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBjeWVjZHhtdWh0eXFkYmxyZWh0Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1NjQ4ODgwNiwiZXhwIjoyMDcyMDY0ODA2fQ.tOO43OJ3dtcFnYAm4epna-IL_z1jdeoLoxuxgQEATss
+Die Supabase Keys werden als Umgebungsvariablen in Caprover gespeichert:
+- NEXT_PUBLIC_SUPABASE_URL
+- NEXT_PUBLIC_SUPABASE_ANON_KEY  
+- SUPABASE_SERVICE_ROLE_KEY
 
 Github:
 https://github.com/airbussard/knabeart.git
