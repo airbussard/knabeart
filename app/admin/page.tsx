@@ -1,6 +1,7 @@
 import { createServerSupabaseClient } from '@/lib/supabase/server'
 import { redirect } from 'next/navigation'
 import Link from 'next/link'
+import Image from 'next/image'
 import { Plus, Edit, Trash2, LogOut } from 'lucide-react'
 
 export default async function AdminDashboard() {
@@ -79,11 +80,15 @@ export default async function AdminDashboard() {
                     <tr key={artwork.id}>
                       <td className="px-6 py-4 whitespace-nowrap">
                         {artwork.image_path && (
-                          <img
-                            src={artwork.image_path}
-                            alt={artwork.name}
-                            className="h-16 w-16 object-cover rounded"
-                          />
+                          <div className="relative h-16 w-16">
+                            <Image
+                              src={artwork.image_path}
+                              alt={artwork.name}
+                              fill
+                              className="object-cover rounded"
+                              sizes="64px"
+                            />
+                          </div>
                         )}
                       </td>
                       <td className="px-6 py-4 whitespace-nowrap">

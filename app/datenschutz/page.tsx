@@ -90,7 +90,7 @@ export default function DatenschutzPage() {
               speichert. Cookies helfen uns dabei, unser Angebot nutzerfreundlicher, effektiver und sicherer zu machen.
             </p>
             <p className="text-gray-700 text-sm mt-2">
-              Einige Cookies sind "Session-Cookies." Solche Cookies werden nach Ende Ihrer Browser-Sitzung von 
+              Einige Cookies sind &ldquo;Session-Cookies.&rdquo; Solche Cookies werden nach Ende Ihrer Browser-Sitzung von 
               selbst gelöscht. Hingegen bleiben andere Cookies auf Ihrem Endgerät bestehen, bis Sie diese selbst 
               löschen. Solche Cookies helfen uns, Sie bei Rückkehr auf unserer Website wiederzuerkennen.
             </p>
@@ -129,8 +129,8 @@ export default function DatenschutzPage() {
             
             <h3 className="text-lg font-light mb-2 mt-4">Google reCAPTCHA</h3>
             <p className="text-gray-700 text-sm">
-              Wir nutzen "Google reCAPTCHA" (im Folgenden "reCAPTCHA") auf dieser Website. Anbieter ist die 
-              Google Ireland Limited ("Google"), Gordon House, Barrow Street, Dublin 4, Irland.
+              Wir nutzen &ldquo;Google reCAPTCHA&rdquo; (im Folgenden &ldquo;reCAPTCHA&rdquo;) auf dieser Website. Anbieter ist die 
+              Google Ireland Limited (&ldquo;Google&rdquo;), Gordon House, Barrow Street, Dublin 4, Irland.
             </p>
             <p className="text-gray-700 text-sm mt-2">
               Mit reCAPTCHA soll überprüft werden, ob die Dateneingabe auf dieser Website (z. B. in einem 

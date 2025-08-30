@@ -47,7 +47,7 @@ export default function NewArtworkPage() {
 
       router.push('/admin')
       router.refresh()
-    } catch (err) {
+    } catch {
       setError('Fehler beim Speichern des Kunstwerks')
       setLoading(false)
     }
