@@ -19,6 +19,8 @@ EXPOSE 80
 ENV PORT=80
 ENV NODE_ENV=production
 ENV HOSTNAME=0.0.0.0
+# Force Next.js to recognize all routes
+ENV NEXT_TELEMETRY_DISABLED=1
 
 # Start the application
 CMD ["npm", "start"]
