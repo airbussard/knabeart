@@ -10,7 +10,6 @@ type ArtworkType = 'oil' | 'acrylic' | 'watercolor' | 'mixed' | 'drawing' | 'oth
 
 export default function NewArtworkPage() {
   const router = useRouter()
-  const supabase = createBrowserSupabaseClient()
   
   const [formData, setFormData] = useState({
     name: '',
@@ -33,6 +32,7 @@ export default function NewArtworkPage() {
     setError(null)
 
     try {
+      const supabase = createBrowserSupabaseClient()
       const { error } = await supabase
         .from('artworks')
         .insert([{
