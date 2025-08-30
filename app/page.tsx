@@ -25,10 +25,11 @@ export default function Home() {
       {/* Hero Section - Optimiert für alle Bildschirmgrößen */}
       <section className="relative min-h-[60vh] sm:min-h-[65vh] md:h-[70vh] flex items-center justify-center bg-gradient-to-b from-gray-50 to-white py-12 sm:py-16 md:py-0">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-3xl xs:text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-light mb-4 sm:mb-6 tracking-wide">
-            Michaela Knabe
+          <h1 className="text-3xl xs:text-4xl sm:text-5xl md:text-6xl lg:text-7xl mb-4 sm:mb-6 tracking-wide text-gray-900">
+            <span className="font-light">Michaela</span>{' '}
+            <span className="font-normal">Knabe</span>
           </h1>
-          <p className="text-lg sm:text-xl md:text-2xl text-gray-600 font-light mb-4 sm:mb-6 md:mb-8">
+          <p className="text-lg sm:text-xl md:text-2xl text-gray-700 font-light mb-4 sm:mb-6 md:mb-8">
             Künstlerin
           </p>
           <p className="text-sm sm:text-base md:text-lg text-gray-700 max-w-2xl mx-auto mb-6 sm:mb-8 leading-relaxed px-2 sm:px-0">

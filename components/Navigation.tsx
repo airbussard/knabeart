@@ -22,7 +22,10 @@ export default function Navigation() {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link href="/" className="flex-shrink-0 flex items-center">
-              <h1 className="text-xl font-light tracking-wider">MICHAELA KNABE</h1>
+              <h1 className="text-xl tracking-wider">
+                <span className="font-light">MICHAELA</span>{' '}
+                <span className="font-medium">KNABE</span>
+              </h1>
             </Link>
           </div>
 

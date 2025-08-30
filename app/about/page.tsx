@@ -6,8 +6,8 @@ export default function AboutPage() {
       {/* Hero Section - Mobile optimiert */}
       <section className="py-12 sm:py-16 md:py-20 bg-gradient-to-b from-gray-50 to-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-light mb-3 sm:mb-4">Über mich</h1>
-          <p className="text-lg sm:text-xl text-gray-600">Meine künstlerische Reise</p>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-light mb-3 sm:mb-4 text-gray-900">Über mich</h1>
+          <p className="text-lg sm:text-xl text-gray-700">Meine künstlerische Reise</p>
         </div>
       </section>
 
